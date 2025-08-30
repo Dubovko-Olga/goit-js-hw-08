@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.gallery {
+  width: 1128px;
+  padding: 0 24px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+
+.gallery-item {
+  width: calc((1128px - 2 * 24px - 2 * 24px) / 3);
+  box-sizing: border-box;
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
